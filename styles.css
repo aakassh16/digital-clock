@@ -1,0 +1,32 @@
+body {
+    background: black;
+    margin: 0;
+    padding: 0; 
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .clock {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .clock {
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+}
