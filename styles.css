@@ -17,7 +17,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 20%); /* Adjusted translateY value */
+    transform: translate(-50%, 20%); 
 }
 
 .clock {
@@ -25,10 +25,11 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -70%); /* Adjusted translateY value */
+    transform: translate(-50%, -70%); 
 }
 
 /* Responsive styles */
+
 @media screen and (max-width: 768px) {
     .clock {
         font-size: 40px;
